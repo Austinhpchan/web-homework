@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>幼兒教育 學類</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <h1>幼兒教育 學類 </h1>
+    <style>
+      legend {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        color:var(--bs-primary);
+      } 
+      .progress-container {
+            width: 300px;
+            background-color: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        .progress-bar {
+            height: 25px;
+            background-color: #4caf50;
+            text-align: center;
+            line-height: 25px;
+            color: white;
+        }
+    </style>
+  </head>
+  <button onclick="showContent('introduce')">學類介紹</button>
+  <button onclick="showContent('future')">生涯進路</button>
+  <button onclick="showContent('highschool')">高中準備</button>
+  <button onclick="showContent('ability')">能力特質</button>
+  <button onclick="showContent('correspond')">對應校系</button>
+
+<div id="introduce" class="content" style="display: block;">
+    <h2>學類介紹</h2>
+    <img src="chart.png" >
+    <h3>這個學類學什麼？</h3>
+    <p>幼兒教育的核心為關注2-6歲學齡前幼兒的發展和學習，以統整性課程培養幼兒具有覺知辨識、表達溝通、關懷合作、推理賞析、想像創造以及自主管理的能力素養。</p>
+    <p>專業學科的學習內容大致涵蓋幼兒教保、幼兒園課程設計與教材教法、幼兒發展與學習、幼兒學習環境設計、特殊幼兒教育、音樂與藝術、文學與戲劇。</p>
+    <p>如果你學習幼兒教育學類，你可以享受和孩子一起生活、一起創作和解決問題的樂趣，並且看見孩子的成長。</p>
+    <h3>相似學類比一比</h3>
+    <p>本學類主要培育「幼兒教育及照顧法」中指稱之「教保服務人員」的「幼兒園教師」與「教保員」。</p>
+    <p>本學類容易與教育學類搞混。</p>
+    <p>教育學類：主要培養國小及以上的師資、教育行政與學術研究人才。</p>
+    <h3>就要你這款</h3>
+    <p>就要你喜歡帶著好奇探索世界、喜歡遊戲中學習並且從事和人有關的工作，而且喜歡又能欣賞年幼的孩子，常常願意和他人合作溝通，以正向的態度面對問題、解決問題，那麼幼兒教育學類會是合於你特質的選擇。</p>
+    <h3>你所不知道的大學生活</h3>
+    <p>●了解幼兒教育相關的理論與實踐</p>
+    <p>●了解教育政策與法規、幼兒教育發展史、幼兒教育的模式</p>
+    <p>●設計符合幼兒發展的課程與教材教具</p>
+    <p>●實際到幼兒園或機構參訪與見習</p>
+    <p>●參與偏鄉服務學習</p>
+    <p>●參與寒暑假幼兒營隊活動</p>
+    <h3>興趣類型</h3>
+    <p>文藝傳播(SA) 、 文化培養 (AS) 、 社會型(S)</p>
+    <h3>不可不知的知識領域</h3>
+    <p>教育訓練 、 心理學 、 藝術 、 本國語文</p>
+    <h3>必修或核心課程？</h3>
+    <P>●教學基本學科：幼兒文學、幼兒藝術、幼兒體能、幼兒戲劇</P>
+    <P>●教育基礎課程：教育概論、教育心理學、教育哲學、教育社會學</P>
+    <P>●教育方法課程：教學原理、幼兒園課程設計、幼兒遊戲、幼兒學習環境設計、幼兒園行政</P>
+    <P>●教學實習課程：幼兒園教學實習</P>
+    <P>●教保專業知能課程：幼兒發展、幼兒觀察、幼兒園教保活動課程設計、幼兒園教材教法、特殊幼兒教育</P>
+</div>
+<div id="future" class="content" style="display: none;">
+
+  
+</div>
+<div id="幼教老師" class="content" style="display: block;">
+  <h2>生涯進路</h2>
+  <img src="chart.png" >
+  <h2>幼教老師</h2>
+<p>具備教師資格，在幼教場所擔任教師，設計與執行促進兒童語言、身心、體格發展的各種教學活動。</p>
+<p>(104薪資情報: 3.1萬～4.0萬/幼教班老師 )</p>
+
+  <button onclick="showContent('教保員')">教保員</button>
+  <button onclick="showContent('保育員')">保育員</button>
+  <button onclick="showContent('幼稚園園長')">幼稚園園長</button>
+  <button onclick="showContent('托嬰保母人員')">托嬰保母人員</button>
+</div>
+<div id="教保員" class="content" style="display: none;">
+  <h2>生涯進路</h2>
+  <img src="chart.png" >
+  <h2>教保員</h2>
+<p>在幼教場所協助執行促進兒童語言、身心、體格發展的各種教學活動。</p>
+<p>(104薪資情報: 3.1萬～3.8萬/教保員 )</p>
+
+  <button onclick="showContent('幼教老師')">幼教老師</button>
+  <button onclick="showContent('保育員')">保育員</button>
+  <button onclick="showContent('幼稚園園長')">幼稚園園長</button>
+  <button onclick="showContent('托嬰保母人員')">托嬰保母人員</button>
+</div>
+<div id="保育員" class="content" style="display: none;">
+  <h2>生涯進路</h2>
+  <img src="chart.png" >
+  <h2>保育員</h2>
+<p>於安親之教學場所，從事幼兒照顧及教養工作。</p>
+<p> (104薪資情報: 3.1萬～3.8萬/教保員 )</p>
+
+  <button onclick="showContent('幼教老師')">幼教老師</button>
+  <button onclick="showContent('教保員')">教保員</button>
+  <button onclick="showContent('幼稚園園長')">幼稚園園長</button>
+  <button onclick="showContent('托嬰保母人員')">托嬰保母人員</button>
+</div>
+<div id="幼稚園園長" class="content" style="display: none;">
+  <h2>生涯進路</h2>
+  <img src="chart.png" >
+  <h2>幼稚園園長</h2>
+<p>負責園區硬體的規劃與改善、人事管理，並照護幼兒學習安全及處理家長對園所的相關問題。</p>
+<p> (104薪資情報: 3.1萬～4.0萬/幼教班老師 )</p>
+
+  <button onclick="showContent('幼教老師')">幼教老師</button>
+  <button onclick="showContent('教保員')">教保員</button>
+  <button onclick="showContent('保育員')">保育員</button>
+  <button onclick="showContent('托嬰保母人員')">托嬰保母人員</button>
+</div><div id="托嬰保母人員" class="content" style="display: none;">
+  <h2>生涯進路</h2>
+  <img src="chart.png" >
+  <h2>托嬰保母人員</h2>
+<p>受雇負責嬰幼兒看護、教導幼童學習及照顧其日常生活。</p>
+<p>  (104薪資情報: 3.1萬～3.7萬/托育員 )</p>
+
+  <button onclick="showContent('幼教老師')">幼教老師</button>
+  <button onclick="showContent('教保員')">教保員</button>
+  <button onclick="showContent('保育員')">保育員</button>
+  <button onclick="showContent('幼稚園園長')">幼稚園園長</button>
+</div>
+<div id="highschool" class="content" style="display: none;">
+    <h2>高中準備</h2>
+    <img src="chart.png" >
+    <h2>核心素養</h2>
+    <h3>人際關係與團隊合作</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 15%;">15%</div>
+  </div>
+    <h3>系統思考與解決問題</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 13.33%;">13.33%</div>
+  </div>
+    <h3>身心素質與自我精進</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 12.08%;">12.08%</div>
+  </div>
+    <h3>規劃執行與創新應變</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 11.67%;">11.67%</div>
+  </div>
+    <h3>符號運用與溝通表達</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 11.67%;">11.67%</div>
+  </div>
+    <h3>多元文化與國際理解</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 10%;">10%</div>
+  </div>       
+    <h3>藝術涵養與美感素養</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 9.58%;">9.58%</div>
+  </div>  
+    <h3>道德實踐與公民意識</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 9.58%;">9.58%</div>
+  </div>   
+    <h3>科技資訊與媒體素養</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 7.08%;">7.08%</div>
+  </div>
+  <h2>高中課程領域</h2>
+  <h3>國語文</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 17.5%;">17.5%</div>
+  </div>
+    <h3>公民與社會</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 8.75%;">8.75%</div>
+  </div>
+    <h3>英語文</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 8.33%;">8.33%</div>
+  </div>
+    <h3>藝術生活</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 7.08%;">7.08%</div>
+  </div>       
+    <h3>美術</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 6.67%;">6.67%</div>
+  </div>  
+    <h3>健康與護理</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 6.25%;">6.25%</div>
+  </div>   
+    <h3>音樂</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 6.25%;">6.25%</div>
+  </div>   
+    <h3>家政</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 5.42%;">5.42%</div>
+  </div>  
+    <h3>生命教育</h3>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 5%;">5%</div>
+  </div>
+  <h2>加深加廣課程</h2>
+  <h3>語文表達與傳播應用</h3>
+  <div class="progress-container">
+    <div class="progress-bar" style="width: 50.42%;">50.42%</div>
+  </div>
+  <h3>英語聽講</h3>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 5.42%;">5.42%</div>
+  </div>      
+<div id="ability" class="content" style="display: none;">
+    <h2>能力特質</h2>
+    <img src="chart.png" >
+  </div>
+  <div id="correspond" class="content" style="display: none;">
+      <h2>對應校系</h2>
+      <img src="chart.png" >
+      <p>學校	系組名稱	比較清單</p>
+  </div>
+<script>
+function showContent(id) {
+    // 隱藏所有內容區塊
+    document.querySelectorAll('.content').forEach(el => el.style.display = 'none');
+    
+    // 顯示對應的內容區塊
+    document.getElementById(id).style.display = 'block';
+    
+    // 如果是點擊「生涯進路」，額外顯示「幼教老師」
+    if (id === 'future') {
+        document.getElementById('幼教老師').style.display = 'block';
+    }
+}
+
+</script>
+
+</script>
